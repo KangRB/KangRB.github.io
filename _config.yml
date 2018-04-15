@@ -17,7 +17,7 @@
 # remote_theme: mmistakes/so-simple-theme
 locale: zh-CN
 title: "My Blog"
-description: "It really is the best."
+description: "Don't be the same,be better!"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: "https://KangRB.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: "/images/logo.jpg" # path of site logo, e.g. "/images/logo.png"
@@ -83,7 +83,7 @@ defaults:
       type: posts
     values:
       layout: post
-      share: true
+      share: false
 
 # Site Author
 author:

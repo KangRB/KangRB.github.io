@@ -1,6 +1,6 @@
 ---
 title: "Markup: Image Alignment"
-image: 
+image:
   path: /images/so-simple-sample-image-5.jpg
   thumbnail: /images/so-simple-sample-image-5-400x200.jpg
   caption: "Photo from [WeGraphics](http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/)"
@@ -59,14 +59,14 @@ And just when you thought we were done, we're going to do them all over again wi
 <figure class="align-center">
   <a href="#"><img src="{{ '/images/image-alignment-580x300.jpg' | absolute_url }}" alt=""></a>
   <figcaption>Look at 580 x 300 <a href="#">getting some</a> love.</figcaption>
-</figure> 
+</figure>
 
 The figure above happens to be **centered**. The caption also has a link in it, just to see if it does anything funky.
 
 <figure style="width: 150px" class="align-left">
   <img src="{{ '/images/image-alignment-150x150.jpg' | absolute_url }}" alt="">
   <figcaption>Itty-bitty caption.</figcaption>
-</figure> 
+</figure>
 
 The rest of this paragraph is filler for the sake of seeing the text wrap around the 150×150 image, which is **left aligned** with the `.align-left` class.
 
@@ -77,14 +77,14 @@ And now for a massively large image with **no alignment**.
 <figure style="width: 1200px">
   <img src="{{ '/images/image-alignment-1200x4002.jpg' | absolute_url }}" alt="">
   <figcaption>Massive image comment for your eyeballs.</figcaption>
-</figure> 
+</figure>
 
 The figure element above has an inline style of `width: 1200px` set which should cause it to break outside of the normal content flow.
 
 <figure style="width: 300px" class="align-right">
   <img src="{{ '/images/image-alignment-300x200.jpg' | absolute_url }}" alt="">
   <figcaption>Feels good to be on the right.</figcaption>
-</figure> 
+</figure>
 
 And now we're going to shift things to the **right** with the `.align-right` class. Again, there should be plenty of room above, below, and to the left of the image. Just look at him there --- Hey guy! Way to rock that right side. I don't care what the left aligned image says, you look great. Don't let anyone else tell you differently.
 

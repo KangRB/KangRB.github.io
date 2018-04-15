@@ -1,14 +1,14 @@
 # Sample site navigation links
 
-- title: Home
+- title: 主 页
   url: /
-- title: Posts
+- title: 文 章
   url: /posts/
-- title: Categories
+- title: 分 类
   url: /categories/
-- title: Tags
+- title: 标 签
   url: /tags/
-- title: Recipes
-  url: /recipes/
-- title: Search
+# - title: Recipes
+#   url: /recipes/
+- title: 搜 索
   url: /search/

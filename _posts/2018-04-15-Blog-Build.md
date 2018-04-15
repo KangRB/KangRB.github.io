@@ -21,6 +21,7 @@ tags:
 1. 首先在电脑上安装Windows上运行的Jekyll [这里是官方教程](http://jekyll-windows.juthilo.com/1-ruby-and-devkit/)
 2. 克隆主题
 > 有3个安装主题的方法
+
   + 如果正在运行Jekyll v3.5 + 自行托管，则可以快速将主题安装为Ruby gem。
     1. 将以下代码添加到自己的jekyll网站Gemfile
     ```markdown
@@ -37,6 +38,7 @@ tags:
 
   + 可以安装为远程主题
     >GitHub Pages增加了对任何GitHub托管主题的全面支持。
+
     1. 替换```gem "jekyll"```为：
     ```markdown
     ruby gem "github-pages", group: :jekyll_plugins

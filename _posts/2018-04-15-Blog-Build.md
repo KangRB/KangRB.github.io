@@ -1,8 +1,9 @@
 ---
 title: "使用Jekyll和GitHub搭建个人博客"
 categories:
-  - 技术
-  - 心得
+  - Experience
+  - technology
+  - 中文
 tags:
   - GitHub Pages
   - jekyll

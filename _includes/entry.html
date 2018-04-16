@@ -28,7 +28,7 @@
         {{ entry.excerpt | markdownify }}
         <div class="more-link">
           <a href="{{ entry.url | relative_url }}">{{ site.data.text[site.locale].read_more | default: 'Read More' }}</a>
-        </div>
+        </div><hr style="height:1px;border:none;border-top:1px dashed #ccc;">
       {% endif %}
     </div>
   {% endunless %}

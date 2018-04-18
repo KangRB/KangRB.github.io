@@ -1,0 +1,14 @@
+---
+layout: page
+---
+
+{{ content }}
+
+<iframe id="iframeId" src="../CV/index.html" frameborder="0" width="105%" scrolling="no" style="margin-top: -50px;padding-right: 18px;"></iframe>
+<script>
+$("#iframeId").load(function(){
+	var mainheight = $(this).contents().find("body").height()+30;
+	$(this).height(mainheight);
+});
+</script>
+<!-- 1722 -->

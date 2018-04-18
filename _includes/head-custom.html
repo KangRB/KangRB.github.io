@@ -1,5 +1,15 @@
 <!-- start custom head snippets -->
-
 <!-- insert favicons. use http://realfavicongenerator.net/ -->
+<script src="../CV/js/jquery.js"></script>
+<script>
+$(document).ready(function(){
+	var view = $(window),
+		body = $('body');
+	view.scroll(function(){
+		var scrollPosition = $(window).scrollTop() * .25;
+		body.css({backgroundPosition:'0px -'+scrollPosition+'px'});
+	});
+})
 
+</script>
 <!-- end custom head snippets -->
